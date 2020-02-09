@@ -31,7 +31,7 @@
 # }
 
 def naming_system
- biological = {:Kingdom=>{:Phylum=>{:Class=>{:label=>"Order",{:label=>"Order"}}}}}
+ biological = {:Kingdom=>{:Phylum=>{:Class=>{:label=>"Order",{:label=>"Order"}}}}}}
   # Remember:
   #  Kingdom
   #  Phylum
