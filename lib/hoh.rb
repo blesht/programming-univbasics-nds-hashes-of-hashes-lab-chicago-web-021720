@@ -31,7 +31,14 @@
 # }
 
 def naming_system
- biological = {Portion_1={:Label=>"Kingdom",{:sub_category=>{:Label=>"Phylum",:sub_category=>{{:Label=>"Class"},{:Label=>"Order"}}}}}}
+ biological = {:PORTION_1=>
+                {:Label=>"Kingdom",
+                :sub_category=> {
+                  :Label=>"Phylum",
+                  :sub_category=> {
+                    :label=> "Class"
+                  }
+                }
   # Remember:
   #  Kingdom
   #  Phylum
